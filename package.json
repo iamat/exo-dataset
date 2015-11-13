@@ -1,0 +1,36 @@
+{
+  "name": "exo-dataset",
+  "version": "1.0.0",
+  "description": "Google BigQuery Dataset which deals with the creation and destruction of it's inner tables",
+  "main": "index.js",
+  "scripts": {
+    "test": "make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamat/exo-dataset.git"
+  },
+  "keywords": [
+    "bigquery",
+    "dataset",
+    "tables"
+  ],
+  "author": {
+    "name": "Diego Sanchez",
+    "email": "dsanchez@iamat.com",
+    "twitter": "@dsminotauro"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamat/exo-dataset/issues"
+  },
+  "homepage": "https://github.com/iamat/exo-dataset#readme",
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "gcloud": "^0.24.1",
+    "nock": "^2.18.2"
+  }
+}

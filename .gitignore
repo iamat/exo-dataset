@@ -1,0 +1,44 @@
+node_modules
+
+# ignore emacs files
+*~
+.#*
+TAGS
+
+# log files
+logs/*
+
+# config files (only keep default.yaml)
+config/*
+!config/default.yaml
+
+_tmp/*
+!_tmp/.gitkeep
+
+webroot/app/*
+!webroot/app/.gitkeep
+
+webroot/big/*
+!webroot/big/.gitkeep
+
+webroot/console
+
+webroot/console-coach
+
+webroot/stats
+
+webroot/admin
+
+# SublimeText
+
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+*.sublime-project
+
+# istanbul reports
+reports/*
+
+keys/*

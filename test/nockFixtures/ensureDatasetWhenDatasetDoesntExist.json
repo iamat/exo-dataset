@@ -1,0 +1,126 @@
+[
+    {
+        "scope": "https://accounts.google.com:443",
+        "method": "POST",
+        "path": "/o/oauth2/token",
+        "body": "refresh_token=1%2FeuBG5-0YN8xv7EVv0APUfCfk1NT6xeNl8Lr0UJ9aBUBIgOrJDtdun6zK6XiATCKT&client_id=32555940559.apps.googleusercontent.com&client_secret=ZmssLNjJy2998hD4CTg2ejr2&grant_type=refresh_token",
+        "status": 200,
+        "response": {
+            "access_token": "ya29.KwI-X6hbG28NxHZ-8P05dy1fpooZuqr5aIggac7ajOB3pDbCviIh5bef8Zhmu8iBEtkDrPE",
+            "token_type": "Bearer",
+            "expires_in": 3600,
+            "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjcxODM5MGQ5OTE0YWZlOGVlMmViY2NjNTc0NjExYjg2NzNkNmE5ZTEifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXRfaGFzaCI6IjU3QktqZkZ6TFE3dERBWU15aHlSdlEiLCJhdWQiOiIzMjU1NTk0MDU1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjExMTc2NDIzNjkyOTU3MDgyNTQ4NCIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhenAiOiIzMjU1NTk0MDU1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImhkIjoiaWFtYXQuY29tIiwiZW1haWwiOiJkc2FuY2hlekBpYW1hdC5jb20iLCJpYXQiOjE0NDc0NDg2MDYsImV4cCI6MTQ0NzQ1MjIwNn0.kYuqhENo4hJ00rvx79ALK0d6KgcI-_y1hJesvYgiYSYp89NBBAHbw49O7fbog6znFKZ6jHCvv9UzCzQbLlNJ_SURRnoB9jFVsnZDpE39l4_uLt_mPpC1rMn0fmUesTi73m2dkxxo7-L5JsZkhGU6Zi7XbGYaP4Rah8gjI4IGLoOT0oIl5h8gQeiVTJL-x9UWe5iX-scpFcGW_3S6sOVnpGQ2K3oudZITQVcsux1B7pFtbTjMu7YCQCxb1Mm0SxFf_Ob7biVMu5nzG8UcoCWVbThm9i4GvjhsmS8So9r3ef98KaGccjfNI1wa_H8IbbN7LS1Dimz5vzNDP0ah276Sgw"
+        },
+        "headers": {
+            "content-type": "application/json; charset=utf-8",
+            "x-content-type-options": "nosniff",
+            "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+            "pragma": "no-cache",
+            "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+            "date": "Fri, 13 Nov 2015 21:03:26 GMT",
+            "content-disposition": "attachment; filename=\"json.txt\"; filename*=UTF-8''json.txt",
+            "p3p": "CP=\"This is not a P3P policy! See https://support.google.com/accounts/answer/151657?hl=en for more info.\"",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "server": "GSE",
+            "set-cookie": [
+                "NID=73=OiBTNEDTDc7ov-WnLoCJcFcp5_9S2HI6H0ZVZRCMSGfCq7S06R5ktY6dY2LfB8MrL9v-qeY8G5aIcJubqukilzEg3hR1ZkxH8lrWaeAuAuS8pNkKFoG7_Jbyfepk6vA5;Domain=.google.com;Path=/;Expires=Sat, 14-May-2016 21:03:26 GMT;HttpOnly"
+            ],
+            "alternate-protocol": "443:quic,p=1",
+            "alt-svc": "quic=\":443\"; p=\"1\"; ma=604800",
+            "accept-ranges": "none",
+            "vary": "Accept-Encoding",
+            "connection": "close"
+        }
+    },
+    {
+        "scope": "https://www.googleapis.com:443",
+        "method": "GET",
+        "path": "/bigquery/v2/projects/i-amat/datasets",
+        "body": "",
+        "status": 200,
+        "response": {
+            "kind": "bigquery#datasetList",
+            "etag": "\"AxMVOKw7qC1yJvFAglg_iwWnfXE/SVleeFCGG8VtzNhasY0IQmw3_uY\"",
+            "datasets": [
+                {
+                    "kind": "bigquery#dataset",
+                    "id": "i-amat:dataset_creation",
+                    "datasetReference": {
+                        "datasetId": "dataset_creation",
+                        "projectId": "i-amat"
+                    }
+                }
+            ]
+        },
+        "headers": {
+            "expires": "Fri, 13 Nov 2015 21:03:27 GMT",
+            "date": "Fri, 13 Nov 2015 21:03:27 GMT",
+            "cache-control": "private, max-age=0, must-revalidate, no-transform",
+            "etag": "\"AxMVOKw7qC1yJvFAglg_iwWnfXE/SVleeFCGG8VtzNhasY0IQmw3_uY\"",
+            "vary": "Origin, X-Origin",
+            "content-type": "application/json; charset=UTF-8",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "content-length": "295",
+            "server": "GSE",
+            "alternate-protocol": "443:quic,p=1",
+            "alt-svc": "quic=\":443\"; p=\"1\"; ma=604800",
+            "connection": "close"
+        }
+    },
+    {
+        "scope": "https://www.googleapis.com:443",
+        "method": "POST",
+        "path": "/bigquery/v2/projects/i-amat/datasets",
+        "body": {
+            "datasetReference": {
+                "datasetId": "ensure_dataset_creation"
+            }
+        },
+        "status": 200,
+        "response": {
+            "kind": "bigquery#dataset",
+            "etag": "\"AxMVOKw7qC1yJvFAglg_iwWnfXE/eHWgBLFWkIJaiNqiSJcU0ExCtY8\"",
+            "id": "i-amat:ensure_dataset_creation",
+            "selfLink": "https://www.googleapis.com/bigquery/v2/projects/i-amat/datasets/ensure_dataset_creation",
+            "datasetReference": {
+                "datasetId": "ensure_dataset_creation",
+                "projectId": "i-amat"
+            },
+            "access": [
+                {
+                    "role": "OWNER",
+                    "specialGroup": "projectOwners"
+                },
+                {
+                    "role": "WRITER",
+                    "specialGroup": "projectWriters"
+                },
+                {
+                    "role": "READER",
+                    "specialGroup": "projectReaders"
+                }
+            ],
+            "creationTime": "1447448608576",
+            "lastModifiedTime": "1447448608576"
+        },
+        "headers": {
+            "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+            "pragma": "no-cache",
+            "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+            "date": "Fri, 13 Nov 2015 21:03:28 GMT",
+            "vary": "X-Origin, Origin,Accept-Encoding",
+            "content-type": "application/json; charset=UTF-8",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "1; mode=block",
+            "server": "GSE",
+            "alternate-protocol": "443:quic,p=1",
+            "alt-svc": "quic=\":443\"; p=\"1\"; ma=604800",
+            "accept-ranges": "none",
+            "connection": "close"
+        }
+    }
+]
