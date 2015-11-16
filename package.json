@@ -1,6 +1,6 @@
 {
   "name": "exo-dataset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Google BigQuery Dataset which deals with the creation and destruction of it's inner tables",
   "main": "index.js",
   "scripts": {
