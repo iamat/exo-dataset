@@ -103,10 +103,11 @@ describe("exoDataset", function() {
 
                     // ensure tables
                     function(fn) {
-                        ds.ensureTables("prefix_", [
-                            { "name": "atcode", "type": "STRING", "mode": "REQUIRED" }
-                        ], fn);
-
+                        var schema = {
+                            "fields": [
+                                { "name": "atcode", "type": "STRING", "mode": "REQUIRED" }
+                            ]};
+                        ds.ensureTables("prefix_", schema, fn);
                     }
                 ], function(err, createdTables) {
                     nockDone();
